@@ -8,10 +8,10 @@ var port = process.env.PORT || 8080;
 
 server.listen(port);
 
-io.configure(function () { 
+/*io.configure(function () { 
   io.set("transports", ["xhr-polling"]); 
   io.set("polling duration", 10); 
-});
+});*/
 
 // routing
 app.get('/', function (req, res) {
